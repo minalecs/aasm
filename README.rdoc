@@ -11,6 +11,15 @@ AASM has the following features:
 * Events
 * Transitions
 
+== Rails 3 update:
+http://github.com/rubyist/aasm/issues/issue/20
+
+undefined method `before_validation_on_create'
+doesn't exist in rails 3.
+
+need to replace before_validation_on_create with before_validation
+Fix
+
 == New Callbacks
 
 The callback chain & order on a successful event looks like:
